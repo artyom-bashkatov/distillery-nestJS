@@ -1,0 +1,61 @@
+{
+  "ids": {
+    "user": 2,
+    "accessToken": 7,
+    "userCredential": 1,
+    "userIdentity": 2,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "otpSecret": 1,
+    "otp-keys": 26
+  },
+  "models": {
+    "user": {
+      "1": "{\"bio\":\"\\\"user has not entered his bio\\\"\",\"phone\":\"+998938855555\",\"username\":\"+998938855555\",\"password\":\"$2a$10$r9S8LDTSmlIx/r6ZD3/oHuF2V2kP1XArVT6pCBphAv33H32fIklsC\",\"email\":\"+998938855555@anonymous.com\",\"id\":1}"
+    },
+    "accessToken": {
+      "vc6pOpnDsFocQfjrqazCRRgdqpwx0jAmcBVnhljvCgK4f9RmNmsRlwSNwE7uk7Jb": "{\"id\":\"vc6pOpnDsFocQfjrqazCRRgdqpwx0jAmcBVnhljvCgK4f9RmNmsRlwSNwE7uk7Jb\",\"ttl\":1209600,\"created\":\"2022-01-14T11:29:18.088Z\",\"userId\":1}",
+      "Gi5SASVgbXRsVSNmYcfyxZ8siyHRt9y3Ab5zCpMkN3HDUhAocQTH2ItvAB12LYvI": "{\"id\":\"Gi5SASVgbXRsVSNmYcfyxZ8siyHRt9y3Ab5zCpMkN3HDUhAocQTH2ItvAB12LYvI\",\"ttl\":1209600,\"created\":\"2022-01-14T11:29:39.309Z\",\"userId\":1}",
+      "RXJzSKIIP50CMqj6ONEc50noKWgNM6jXFpLFJ9ECDuvPk1QC8vSqCyfg1KB73hYD": "{\"id\":\"RXJzSKIIP50CMqj6ONEc50noKWgNM6jXFpLFJ9ECDuvPk1QC8vSqCyfg1KB73hYD\",\"ttl\":1209600,\"created\":\"2022-01-14T11:30:05.114Z\",\"userId\":1}",
+      "OytGIGuUKwdTFGK9NarR8lJX50BO1vbpNFmuW8wtchaNYW5LNFvVe3fqRRR0apKk": "{\"id\":\"OytGIGuUKwdTFGK9NarR8lJX50BO1vbpNFmuW8wtchaNYW5LNFvVe3fqRRR0apKk\",\"ttl\":1209600,\"created\":\"2022-01-14T12:17:58.090Z\",\"userId\":1}",
+      "ZgUZfyarFdIo7euwUhOR1AxfXsQ8JfGTDhIBvns5vvMIBxYOzQ1mKqMJoAwulPHG": "{\"id\":\"ZgUZfyarFdIo7euwUhOR1AxfXsQ8JfGTDhIBvns5vvMIBxYOzQ1mKqMJoAwulPHG\",\"ttl\":1209600,\"created\":\"2022-01-14T12:22:47.899Z\",\"userId\":1}",
+      "BXZJuYAtGRzaLu2NaD6obIUVDs0JN0PXosU5dq0k1IQ84GCGBEAignixPFRK0PdQ": "{\"id\":\"BXZJuYAtGRzaLu2NaD6obIUVDs0JN0PXosU5dq0k1IQ84GCGBEAignixPFRK0PdQ\",\"ttl\":1209600,\"created\":\"2022-01-14T12:38:36.430Z\",\"userId\":1}"
+    },
+    "userCredential": {},
+    "userIdentity": {
+      "1": "{\"provider\":\"passport-otp\",\"authScheme\":\"otp\",\"externalId\":\"+998938855555\",\"profile\":{\"phone\":\"+998938855555\",\"username\":\"+998938855555\",\"emails\":[{\"value\":\"+998938855555@anonymous.com\"}],\"id\":\"+998938855555\"},\"credentials\":{\"accessToken\":null,\"refreshToken\":null},\"created\":\"2022-01-14T11:29:18.086Z\",\"modified\":\"2022-01-14T12:38:36.425Z\",\"userId\":1,\"id\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "otpSecret": {},
+    "otp-keys": {
+      "1": "{\"identity\":\"+919002823501\",\"secret\":\"MUWDAPD2EN3C64RKK5FD6QTLJFCEY6LBLVRFMRB2KZEDI5TPENHA\",\"id\":1}",
+      "2": "{\"identity\":\"+919002823501\",\"secret\":\"ENGEMJC3HYTHUT3DGRXEMSSKLJ6TCTTQIU4VOSLTEYSTYTLXHFAA\",\"id\":2}",
+      "3": "{\"identity\":\"+79002823501\",\"secret\":\"JF6XEKSMPJRF2V3CLMYFORL2ME2TEOJWNFUHKOLYOVZGO22UNZNQ\",\"id\":3}",
+      "4": "{\"identity\":\"+79002823501\",\"secret\":\"IVXTKM3LFR3CSWZGGQ3VITDFNBADQ5S3MI2FOZZPNRPF23CWNYYA\",\"id\":4}",
+      "5": "{\"identity\":\"+79002823501\",\"secret\":\"PNRFC5KWGYYHQVDYG5YHCRJEGRBTYQLHEVRGWQJRKJTU2VBREQ2A\",\"id\":5}",
+      "6": "{\"identity\":\"+914561237897\",\"secret\":\"LA6FK2LWGAXTEQZSEQRUE6DCKQYGK42UJETHAKD3MRKUGOSWJNUQ\",\"id\":6}",
+      "7": "{\"identity\":\"+914561237897\",\"secret\":\"ERDUYNJ6KRREST3XMZWTM33BMISVI3SDPMUD4ZLJEQ5DGPBFGIUQ\",\"id\":7}",
+      "8": "{\"identity\":\"+914561237897\",\"secret\":\"GA6D4Y2AIRYTCYZFFBGSCN26KN5FAQJKJYUSSJB2JN3CYPB3NYYQ\",\"id\":8}",
+      "9": "{\"identity\":\"+914561237897\",\"secret\":\"MEZX2MJBGFLGST3UGVDUCTZWNNDVMXR6MFIUWLDRKYVDUSKCMJKA\",\"id\":9}",
+      "10": "{\"identity\":\"+914561237897\",\"secret\":\"PVTCUPDMKFFTQ3DRH5BGK4TWGVZU4OC3KRSTOMSUJ5FGW5DWMYZA\",\"id\":10}",
+      "11": "{\"identity\":\"+914561237897\",\"secret\":\"JUZSYJK2HNLUSNLFIFUT6PDZGBZXWSZSEMZGQMTWOJZE42LQLJYA\",\"id\":11}",
+      "12": "{\"identity\":\"+914561237897\",\"secret\":\"G4YSIPZGIQ2UWT3JMEXHEMSRG5MHKN3UNA3VCI35GNGE66KNKNVQ\",\"id\":12}",
+      "13": "{\"identity\":\"+914561237897\",\"secret\":\"IF2FUM3JOBSWQXTVNMZW6MZRJVGTG4TBMF5WK6S2MFXE4JSTENBA\",\"id\":13}",
+      "14": "{\"identity\":\"+914561237897\",\"secret\":\"NF2EYKCOMFVWC6KKIV5V2YZ4MNKFAJSRN5DTOSJ4GROUUI3QH4XA\",\"id\":14}",
+      "15": "{\"identity\":\"+914561237897\",\"secret\":\"F4SVQIKUMFADSQTXKA4EKXTUH5TFCZKYGVMGOKTZNEZCKVSQGBXA\",\"id\":15}",
+      "16": "{\"identity\":\"+914561237897\",\"secret\":\"HBFWCMJGOZ5G67JZKZZE25CLI44GMM2FLNISSW3XOVFXOV35M5LA\",\"id\":16}",
+      "17": "{\"identity\":\"+914561237897\",\"secret\":\"LZWTYQCJPJIHIN3OJZFUQYJJOZ2HO7K5MZRHAR3RMIUDANCPMFPA\",\"id\":17}",
+      "18": "{\"identity\":\"+914561237897\",\"secret\":\"KBTW26KHLIRTI4JIIZ2UE5RYKJUE6ILYFAXCGNDZO53FQWDVFBFA\",\"id\":18}",
+      "19": "{\"identity\":\"+914561237897\",\"secret\":\"GVSEIMCEFRVXONTEFEQWWOS2JFZHIMKIEY4GKM3HPVTUSOKRHN5Q\",\"id\":19}",
+      "20": "{\"identity\":\"+998938855555\",\"secret\":\"ON3SQJTDHRDEW5ZBMJ3G23TVOFTTI2JOLV5EOMLWNFOU2TR6JM4Q\",\"id\":20}",
+      "21": "{\"identity\":\"+998938855555\",\"secret\":\"MF4V42D5LJJXML3PERUFIS3YMJKFIRSVGFMFC3KSNRDUINS6EFYQ\",\"id\":21}",
+      "22": "{\"identity\":\"+998938855555\",\"secret\":\"H5HD6UTGKVBGMQZXMNETY52WKUXVGSLXH47E42DPMRTGQ3KNJ56Q\",\"id\":22}",
+      "23": "{\"identity\":\"+998938855555\",\"secret\":\"O5FW2WSLOBKFIYRFFIZEAUB4ON6TQ5TMNE5W6ZSTJZ3U6O26IJXA\",\"id\":23}",
+      "24": "{\"identity\":\"+998938855555\",\"secret\":\"JN2GOSS5PU2HA4LBM4UGESD5GB3UIUROFITEWRBJEE7V2WTNJM2A\",\"id\":24}",
+      "25": "{\"identity\":\"+98938855555\",\"secret\":\"LBXTQZTZNNASITZGJFFCG2C5OZHEIJCIEEXS4JTYOB5HMNSOOEQQ\",\"id\":25}"
+    }
+  }
+}
